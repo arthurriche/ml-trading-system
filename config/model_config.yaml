@@ -1,0 +1,28 @@
+# Model Configuration for ML Trading System
+
+lstm:
+  sequence_length: 60
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+  learning_rate: 0.001
+  epochs: 100
+  batch_size: 32
+
+random_forest:
+  n_estimators: 100
+  max_depth: 8
+  min_samples_split: 2
+  min_samples_leaf: 1
+
+xgboost:
+  n_estimators: 100
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+svm:
+  kernel: rbf
+  C: 1.0
+  gamma: scale 

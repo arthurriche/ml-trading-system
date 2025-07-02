@@ -1,0 +1,21 @@
+# Risk Management Configuration for ML Trading System
+
+risk_limits:
+  max_position_size: 0.05  # 5% of portfolio
+  max_drawdown: 0.15       # 15% maximum drawdown
+  var_confidence: 0.95
+  cvar_confidence: 0.95
+  stop_loss: 0.02          # 2% stop loss
+  take_profit: 0.05        # 5% take profit
+
+position_sizing:
+  method: 'kelly'
+  min_fraction: 0.01
+  max_fraction: 0.10
+
+stress_testing:
+  scenarios:
+    - name: 'Market Crash'
+      shock: -0.10
+    - name: 'Volatility Spike'
+      volatility: 0.5 

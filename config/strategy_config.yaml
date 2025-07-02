@@ -1,0 +1,21 @@
+# Strategy Configuration for ML Trading System
+
+momentum:
+  lookback_period: 20
+  entry_threshold: 1.5
+  exit_threshold: 0.5
+
+mean_reversion:
+  lookback_period: 15
+  entry_zscore: 2.0
+  exit_zscore: 0.5
+
+pairs_trading:
+  pair: ['AAPL', 'MSFT']
+  lookback_period: 60
+  entry_zscore: 2.5
+  exit_zscore: 0.5
+
+portfolio_optimization:
+  method: 'risk_parity'
+  rebalance_frequency: 'monthly' 
