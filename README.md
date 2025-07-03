@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Arthur Riche**
-- LinkedIn: [Arthur Riche](https://www.linkedin.com/in/arthurriche/)
+- LinkedIn: [Arthur Riche]
 - Email: arthur.riche@example.com
 
 ## 🙏 Acknowledgments
